@@ -1,0 +1,18 @@
+Transformers — Course Notes
+
+A Transformer is a neural network architecture that uses attention
+to process sequences.
+
+The original Transformer has an encoder and a decoder.
+The encoder consists of 6 layers.
+
+Multi-head attention uses multiple attention heads in parallel.
+Each head can focus on different relationships between tokens.
+The outputs of these heads are combined.
+
+Self-attention alone does not explicitly represent token order.
+Positional encoding adds information about token positions,
+allowing the model to use word order.
+
+Each encoder layer contains a multi-head self-attention sublayer
+and a position-wise feed-forward network.
